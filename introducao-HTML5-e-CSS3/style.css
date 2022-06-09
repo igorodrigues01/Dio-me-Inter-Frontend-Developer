@@ -1,0 +1,123 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 87.8%;
+}
+html,
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* General */
+main {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.card {
+  display: block;
+  margin-bottom: 24px;
+  border-radius: 6px;
+  box-shadow: 0 14px 16px #56565611;
+}
+
+.card_header {
+  padding: 16px;
+  border-radius: 6px 6px 0 0;
+  background: #ececec;
+}
+
+.card_content {
+  padding: 16px;
+}
+
+/* header */
+.header_content {
+  text-align: center;
+  margin-bottom: 48px;
+}
+.header_content h1 {
+  font-size: 36px;
+  padding: 12px 0;
+}
+.header_content img {
+  width: 100%;
+  min-height: 125px;
+  object-fit: cover;
+}
+
+/* Profile */
+.card.card_profile {
+  text-align: center;
+}
+
+.card.card_profile img {
+  margin: 0 auto 12px;
+}
+.photo {
+  border-radius: 50%;
+}
+
+.profile_list li {
+  color: #666;
+}
+
+.profile_list li:first-child {
+  font-size: 24px;
+  font-weight: bold;
+  color: #252525;
+}
+
+/* stack */
+.stack_list li {
+  display: inline-block;
+  padding: 4px 16px;
+  margin: 0 4px 4px 0;
+  background: #252525;
+  color: #ececec;
+  border-radius: 25px;
+}
+
+/* contatct */
+.contact_list li a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #252525;
+}
+
+/* footer */
+
+footer {
+  padding: 12px 0;
+  text-align: center;
+  background: #252525;
+  color: #fff;
+  clear: both;
+}
+
+/* Responsive */
+@media (min-width: 700px) {
+  .card.card_profile {
+    width: 33.3%;
+    max-width: 220px;
+    margin-right: 24px;
+  }
+
+  .card {
+    float: left;
+    width: 60.5%;
+  }
+}
